@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts.com</title>
+</head>
+
+<body>
+    <style>
+        body{
+            background-color: #5be0e0
+        }
+        header{
+            text-align: center
+        }</style>
+    <header><img src="/images//hogwarts-logo-draco.jpg" height="200">
+        <h1><b><i>Welcome to the school of Wizards and Witchcrafts.</i></b></h1>
+        <p>Students intake Registration form.</p>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h1><b><i>Please fill this form below properly as it will decide your admission:</i></b></h1>
+            </div>
+            <div>
+                <form>
+                    <div>
+                        <label for="Honorigic_mr">
+                            <input type="radio" value="Mr." name="honorific" id="Honorigic_mr">Mr.
+                        </label>
+                        <label for="Honorigic_ms">
+                            <input type="radio" value="Ms." name="honorific" id="Honorigic_ms">Ms.
+                        </label>
+                        <label for="Honorigic_prof">
+                            <input type="radio" value="Professor." name="honorific" id="Honorigic_prof">Prof.
+                        </label>
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Middle Name">
+                        <input type="text" placeholder="Last Name"><br>
+                        <br>
+                        <span><b><i>Please Enter your Date of Birth: </i></b></span><span> </span><input type="date"
+                            min="9/24/2004"><br>
+                        <small><i>(please ensure that you are above 18 years old, below which your admission is liable
+                                to cancellation.)</i></small><br>
+                        <br>
+                        <input type="text" placeholder="Father's First Name">
+                        <input type="text" placeholder="Father's Middle Name">
+                        <input type="text" placeholder="Father's Last Name"><br>
+                        <br>
+                        <input type="text" placeholder="Mother's First Name">
+                        <input type="text" placeholder="Mother's Middle Name">
+                        <input type="text" placeholder="Mother's Last Name"><br>
+                        <br>
+                        <input type="text" placeholder="Guardian's First Name">
+                        <input type="text" placeholder="Guardian's Middle Name">
+                        <input type="text" placeholder="Guardian's Last Name"><br>
+                        <br>
+                    </div>
+                    <div>
+                        <span><b><i>Please select your desire house among these below:</i></b></span><br>
+                        <small><i>(please understand that your selection to a particular house is subjected to
+                                change.)</i></small><br>
+                        <label for="houseRavenclaw">
+                            <input type="radio" value="House Ravenclaw" name="House" id="houseRavenclaw"><img
+                                src="/images//houses1.jfif.jpg" height="150" </label>
+                            <label for="houseSlytherin">
+                                <input type="radio" value="House Slytherin" name="House" id="houseSlytherin"><img
+                                    src="/images//houses2.jfif.jpg" height="150" </label>
+                                <label for="houseHufflepuff">
+                                    <input type="radio" value="House Hufflepuff" name="House" id="houseHufflepuff"><img
+                                        src="/images//houses3.jfif.jpg" height="150" </label>
+                                    <label for="houseRavenclaw">
+                                        <input type="radio" value="House Ravenclaw" name="House"
+                                            id="houseRavenclaw"><img src="/images//houses4.jfif.jpg" height="150"
+                                            </label><br><br>
+                                        <div>
+                                            <span><b><i>Please state briefly the reason for your house
+                                                        selection:</i></b></span><br><br>
+                                        </div>
+                                        <label for="reason">
+                                            <textarea name="reason" id="reason" cols="30" rows="10"
+                                                placeholder="Please type here (max 50 words)"></textarea>
+                                        </label>
+                    </div><br>
+                    <div>
+                        <span><b><i>Please give your living address:</i></b></span><br>
+                        <label>
+                            <input type="text" placeholder="House No.">
+                            <input type="text" placeholder="Street No.">
+                            <input type="text" placeholder="Area"><br><br>
+                            <input type="text" placeholder="State">
+                            <input type="text" placeholder="Country">
+                            <input type="text" placeholder="Area Code" minlength="6" pattern="[0-9]*" </label>
+                    </div>
+                    <section>
+                        <div>
+                            <p><b><i>Please select 1st year elective subject from the drop down list:</i></b></p>
+                            <label>
+                                <select name="subject" id="subject">
+                                    <option value="Not Selected">Not selected</option>
+                                    <option value="Transfiguration"><i>Transfiguration</i></option>
+                                    <option value="Charms"><i>Charms</i></option>
+                                    <option value="Potions"><i>Potions</i></option>
+                                    <option value="Astronomy "><i>Astronomy</i> </option>
+                                    <option value="Herbology"><i>Herbology</i></option>
+                                    < </select><br><br>
+                            </label>
+                        </div>
+                    </section>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <label for="terms and condn">
+                <input type="checkbox" value="terms and condn"><b><i>I Accept that I am above 18 years old and strictly
+                        abide by the rules and regulations of hogswarts.</i></b>
+            </label>
+        </div><br>
+        <div>
+            <label for="submit">
+                <input type="submit" value="Submit">
+        </div>
+            </label>
+    </footer>
+</body>
+
+</html>
